@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="hotel.css">
+<title>Hotel</title>
+</head>
+<body>
+      
+    <header class = "header" id = "header">
+        <div class = "head-top">
+            <div class = "site-name">
+                <span>HOTEL</span>
+            </div>
+            <div class = "site-nav">
+                <span id = "nav-btn">MENU <i class = "fas fa-bars"></i></span>
+            </div>
+        </div>
+
+        <div class = "head-bottom flex">
+            <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+<button type = "button" class = "head-btn">GET STARTED</button>
+        </div>
+    </header>
+ 
+    <div class = "sidenav" id = "sidenav">
+        <span class = "cancel-btn" id = "cancel-btn">
+            <i class = "fas fa-times"></i>
+        </span>
+
+        <ul class = "navbar">
+            <li><a href = "#header">home</a></li>
+            <li><a href = "#services">services</a></li>
+            <li><a href = "#rooms">rooms</a></li>
+            <li><a href = "#customers">customers</a></li>
+        </ul>
+
+    </div>
+<div id = "modal"></div>
+<section class = "services sec-width" id = "services">
+        <div class = "title">
+            <h2>services</h2>
+        </div>
+        <div class = "services-container">
+           
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Food Service</h2>
+                    <p>Supervise, co-ordinate and schedule the activities of staff who prepare, portion and serve food. Estimate and order ingredients and supplies required for meal preparation. Prepare food order summaries for chef according to requests from dieticians, patients in hospitals or other customers.</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+    
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Refreshment</h2>
+                    <p>Plans, organizes, and supervises lifeguard operations at City pools and recreation facilities; • Prepares, unlocks, inspects and locks pool grounds for opening and closing; • Tests and records chlorine and PH levels for the pools; • Responds to and resolves problems, inquiries and complaints relating to pool facilities.</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+       
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Housekeeping</h2>
+                    <p>Assigning housekeeping tasks to staff and inspecting work to ensure that the prescribed standards of cleanliness are met.Scheduling staff shifts and organizing replacements as required.Investigating and addressing complaints regarding poor housekeeping service.</p>
+                    <button type = "button" class = "btn">Know More</button>
+                </div>
+            </article>
+           
+            <article class = "service">
+                <div class = "service-icon">
+                    <span>
+                        <i class = "fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class = "service-content">
+                    <h2>Room Security</h2>
+                    <p>Dispatch security officers to investigate alarms and respond to incidents, escalate as procedure states and to the best of own judgement. Notify emergency services when external response is required; coordinate with corporate security to ensure services have immediate access to the space.</p>
+                    <button type = "button" class = "btn">Know More</button>
+        </div>
+    </section>
+<div class = "book">
+        <form class = "book-form">
+            <div class = "form-item">
+                <label for = "checkin-date">Check In Date: </label>
+                <input type = "date" id = "chekin-date">
+            </div>
+            <div class = "form-item">
+                <label for = "checkout-date">Check Out Date: </label>
+                <input type = "date" id = "chekout-date">
+            </div>
+            <div class = "form-item">
+                <label for = "adult">Adults: </label>
+                <input type = "number" min = "1" value = "1" id = "adult">
+            </div>
+            <div class = "form-item">
+                <label for = "children">Children: </label>
+                <input type = "number" min = "1" value = "1" id = "children">
+            </div>
+            <div class = "form-item">
+                <label for = "rooms">Rooms: </label>
+                <input type = "number" min = "1" value = "1" id = "rooms">
+            </div>
+            <div class = "form-item">
+                <input type = "submit" class = "btn" value = "Book Now">
+            </div>
+        </form>
+    </div>
+
+    <section class = "rooms sec-width" id = "rooms">
+        <div class = "title">
+            <h2>rooms</h2>
+        </div>
+        <div class = "rooms-container">
+       
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/bd1.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>SINGLE BED ROOM</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                    <p class = "rate">
+                        <span>₹3000/</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+        
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/bd29.png" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>DOUBLE BED ROOM</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                    <p class = "rate">
+                        <span>₹5000 /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+            
+            <article class = "room">
+                <div class = "room-image">
+                    <img src = "images/deluxe-king-2.jpg" alt = "room image">
+                </div>
+                <div class = "room-text">
+                    <h3>DELUXE ROOMS</h3>
+                    <ul>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class = "fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus exercitationem repellendus maxime ullam tempore architecto provident unde expedita quam beatae, dolore eligendi molestias sint tenetur incidunt voluptas. Unde corporis qui iusto vitae. Aut nesciunt id iste, cum esse commodi nemo?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla corporis quasi officiis cumque, fugiat nostrum sunt, tempora animi dicta laborum beatae ratione doloremque. Delectus odio sit eius labore, atque quo?</p>
+                    <p class = "rate">
+                        <span>₹7000 /</span> Per Night
+                    </p>
+                    <button type = "button" class = "btn">book now</button>
+                </div>
+            </article>
+        
+        </div>
+    </section>
+<section class = "customers" id = "customers">
+        <div class = "sec-width">
+            <div class = "title">
+                <h2>customers</h2>
+            </div>
+            <div class = "customers-container">
+              
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>We Loved it</h3>
+                    <p>THE EXPERIENCE WAS GOOD AND ENJOYED WITH FAMILY AND FRIENDS.</p>
+                    <img src = "images/cus1.jpg" alt = "customer image">
+                    <span>SURESH PATEL,INDIA</span>
+                </div>
+                
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>Comfortable Living</h3>
+                    <p>THE EXPERIENCE WAS GOOD AND ENJOYED WITH FAMILY AND FRIENDS.</p>
+                    <img src = "images/cus2.jpg" alt = "customer image">
+                    <span>KRISHNA PATEL,INDIA</span>
+                </div>
+               
+                <div class = "customer">
+                    <div class = "rating">
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "fas fa-star"></i></span>
+                        <span><i class = "far fa-star"></i></span>
+                    </div>
+                    <h3>Nice Place</h3>
+                    <p>THE EXPERIENCE WAS GOOD AND ENJOYED WITH FAMILY AND FRIENDS.</p>
+                    <img src = "images/cus3.jpg" alt = "customer image">
+                    <span>RAMESH KUMAR,INDIA</span>
+                </div>
+                </div>
+        </div>
+    </section>   
+    <a href="homepage.html" class="button">HOMEPAGE</a>
+
+    <script src="hotel.js"></script>  
+</body>
+</html>
